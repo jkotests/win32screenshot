@@ -8,7 +8,7 @@ RSpec::Core::RakeTask.new(:rcov) do |spec|
   spec.rcov = true
 end
 
-task :build => :spec
+#~ task :build => :spec
 task :default => :spec
 
 require 'yard'
